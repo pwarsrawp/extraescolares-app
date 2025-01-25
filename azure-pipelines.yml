@@ -30,6 +30,7 @@ steps:
   inputs:
     command: 'custom'
     customCommand: 'run build'
+    workingDir: 'client'
 
 - task: CopyFiles@2
   inputs:
