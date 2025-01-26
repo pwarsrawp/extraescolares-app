@@ -20,11 +20,13 @@ steps:
   inputs:
     command: 'install'
     workingDir: 'client'
+
 - task: Npm@1
   displayName: 'Installing node modules in server'
   inputs:
     command: 'install'
     workingDir: 'server'
+
 - task: Npm@1
   displayName: 'Building client'
   inputs:
